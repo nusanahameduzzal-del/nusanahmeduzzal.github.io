@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#081a33">
+<title>Nusan Ahammed Uzzal | Personal Website</title>
+<style>
+:root{--navy:#081a33;--navy2:#102b4e;--gold:#d8b56a;--cream:#f7f3e9;--ink:#17243a;--muted:#667085}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:system-ui,"Noto Sans Bengali",Arial,sans-serif;color:var(--ink);background:#fbfaf7;line-height:1.7}
+header{background:linear-gradient(135deg,#061326,#12345b);color:white;position:relative;overflow:hidden}
+header:after{content:"";position:absolute;width:360px;height:360px;border:1px solid #d8b56a55;border-radius:50%;right:-120px;top:-170px;box-shadow:0 0 0 28px #d8b56a12,0 0 0 58px #d8b56a0b}
+nav{max-width:1100px;margin:auto;padding:18px 22px;display:flex;justify-content:space-between;align-items:center;gap:16px;position:relative;z-index:2}
+.brand{font-weight:800;letter-spacing:.06em;color:var(--gold);font-size:14px}
+nav a{color:#fff;text-decoration:none;margin-left:15px;font-size:14px}
+.lang{background:transparent;border:1px solid var(--gold);color:var(--gold);border-radius:30px;padding:7px 13px}
+.hero{max-width:1100px;margin:auto;padding:70px 22px 86px;display:grid;grid-template-columns:1.25fr .75fr;gap:36px;align-items:center;position:relative;z-index:1}
+.kicker{color:var(--gold);font-weight:700;letter-spacing:.12em;font-size:13px}
+h1{font-size:clamp(36px,6vw,64px);line-height:1.15;margin:14px 0;color:white}
+.hero p{font-size:18px;color:#e4eaf2;max-width:650px}
+.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:25px}
+.btn{display:inline-block;text-decoration:none;padding:11px 19px;border-radius:30px;font-weight:700}
+.primary{background:var(--gold);color:#10213a}.secondary{border:1px solid #ffffff88;color:white}
+.portrait{min-height:370px;border:1px solid #d8b56a99;border-radius:180px 180px 24px 24px;background:linear-gradient(160deg,#18385e,#07162b);display:flex;align-items:center;justify-content:center;text-align:center;color:#e7d3a5;padding:30px;box-shadow:0 20px 50px #0004}
+.portrait span{font-size:13px;display:block;color:#d9e1ed;margin-top:8px}.portrait img{width:100%;height:100%;min-height:370px;object-fit:cover;object-position:center 18%;display:block}
+main{max-width:1100px;margin:auto;padding:0 22px}
+section{padding:58px 0;border-bottom:1px solid #e9e4d9}
+.eyebrow{color:#9a7736;font-size:12px;font-weight:800;letter-spacing:.13em;text-transform:uppercase}
+h2{font-size:30px;color:var(--navy);margin:5px 0 18px}
+.lead{color:#526075;max-width:780px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:24px}
+.card{background:white;border:1px solid #e9e3d7;border-radius:16px;padding:22px;box-shadow:0 8px 24px #14243b0a}
+.card .num{color:#b08a42;font-size:13px;font-weight:800}
+.card h3{margin:7px 0;color:var(--navy);font-size:19px}
+.card p{margin:0;color:#5d6878;font-size:15px}
+.ward{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:20px}
+.ward div{background:#f1eadb;padding:13px;border-radius:10px;text-align:center;color:#49391d;font-weight:700}
+.contact{background:var(--navy);color:white;border-radius:22px;padding:30px;margin:40px 0 60px}
+.contact h2{color:white}.contact p{color:#d8e1ed}
+footer{background:#061326;color:#bdc8d7;text-align:center;padding:25px;font-size:13px}
+.small{font-size:12px;color:#9ba7b8}
+@media(max-width:760px){nav{flex-wrap:wrap}nav .links{width:100%;display:flex;gap:12px;flex-wrap:wrap}nav a{margin:0}.hero{grid-template-columns:1fr;padding-top:48px}.portrait{min-height:190px;border-radius:22px}.grid{grid-template-columns:1fr}.ward{grid-template-columns:repeat(3,1fr)}}
+</style>
+</head>
+<body>
+<header>
+<nav>
+ <div class="brand">NAU · PERSONAL PROFILE</div>
+ <div class="links"><a href="#about" data-bn="পরিচিতি" data-en="About">পরিচিতি</a><a href="#work" data-bn="কার্যক্রম" data-en="Initiatives">কার্যক্রম</a><a href="#plan" data-bn="পরিকল্পনা" data-en="Plans">পরিকল্পনা</a><a href="#contact" data-bn="যোগাযোগ" data-en="Contact">যোগাযোগ</a><button class="lang" id="toggle">EN</button></div>
+</nav>
+<div class="hero">
+ <div>
+  <div class="kicker" data-bn="ব্যক্তিগত পরিচিতি ও জনসম্পৃক্ততা" data-en="PERSONAL PROFILE & COMMUNITY ENGAGEMENT">ব্যক্তিগত পরিচিতি ও জনসম্পৃক্ততা</div>
+  <h1 data-bn="নুসান আহম্মেদ উজ্জ্বল" data-en="Nusan Ahammed Uzzal">নুসান আহম্মেদ উজ্জ্বল</h1>
+  <p data-bn="আলীনগর ইউনিয়ন, কালকিনি, মাদারীপুরের মানুষের সঙ্গে সংযোগ, জনসেবামূলক উদ্যোগ এবং এলাকার উন্নয়ন ভাবনা তুলে ধরার একটি ব্যক্তিগত ডিজিটাল প্ল্যাটফর্ম।"
+     data-en="A personal digital platform to share community initiatives, connect with people, and present ideas for the development of Alinagar Union, Kalkini, Madaripur.">আলীনগর ইউনিয়ন, কালকিনি, মাদারীপুরের মানুষের সঙ্গে সংযোগ, জনসেবামূলক উদ্যোগ এবং এলাকার উন্নয়ন ভাবনা তুলে ধরার একটি ব্যক্তিগত ডিজিটাল প্ল্যাটফর্ম।</p>
+  <div class="actions"><a class="btn primary" href="#work" data-bn="কার্যক্রম দেখুন" data-en="Explore Initiatives">কার্যক্রম দেখুন</a><a class="btn secondary" href="#contact" data-bn="যোগাযোগ" data-en="Get in Touch">যোগাযোগ</a></div>
+ </div>
+ <div class="portrait"><img src="profile.jpg" alt="Nusan Ahammed Uzzal"></div>
+</div>
+</header>
+<main>
+<section id="about">
+ <div class="eyebrow" data-bn="আমার পরিচয়" data-en="WHO I AM">আমার পরিচয়</div>
+ <h2 data-bn="মানুষের সঙ্গে, মানুষের পাশে" data-en="Connected with People, Standing Beside People">মানুষের সঙ্গে, মানুষের পাশে</h2>
+ <p class="lead" data-bn="এই ওয়েবসাইটে আমার পরিচিতি, সামাজিক ও জনসেবামূলক উদ্যোগ, এলাকার সমস্যা নিয়ে ভাবনা এবং ভবিষ্যৎ পরিকল্পনা তুলে ধরা হবে। এখানে প্রকাশিত তথ্য নিয়মিত হালনাগাদ করা হবে।"
+ data-en="This website will share my profile, community and public-service initiatives, thoughts on local issues, and future plans. Information published here will be updated regularly.">এই ওয়েবসাইটে আমার পরিচিতি, সামাজিক ও জনসেবামূলক উদ্যোগ, এলাকার সমস্যা নিয়ে ভাবনা এবং ভবিষ্যৎ পরিকল্পনা তুলে ধরা হবে। এখানে প্রকাশিত তথ্য নিয়মিত হালনাগাদ করা হবে।</p>
+</section>
+<section id="work">
+ <div class="eyebrow" data-bn="জনসম্পৃক্ততা" data-en="COMMUNITY ENGAGEMENT">জনসম্পৃক্ততা</div>
+ <h2 data-bn="কার্যক্রম ও উদ্যোগ" data-en="Activities & Initiatives">কার্যক্রম ও উদ্যোগ</h2>
+ <div class="grid">
+  <article class="card"><div class="num">01</div><h3 data-bn="জনসেবামূলক উদ্যোগ" data-en="Community Service">জনসেবামূলক উদ্যোগ</h3><p data-bn="মানুষের প্রয়োজন ও স্থানীয় বাস্তবতার ভিত্তিতে সহায়তামূলক কার্যক্রমের তথ্য।" data-en="Updates on support initiatives shaped by people's needs and local realities.">মানুষের প্রয়োজন ও স্থানীয় বাস্তবতার ভিত্তিতে সহায়তামূলক কার্যক্রমের তথ্য।</p></article>
+  <article class="card"><div class="num">02</div><h3 data-bn="এলাকার সমস্যা" data-en="Local Issues">এলাকার সমস্যা</h3><p data-bn="রাস্তা, খাল, পরিচ্ছন্নতা ও নাগরিক সুবিধা নিয়ে চিহ্নিত বিষয়গুলো।" data-en="Issues identified around roads, canals, cleanliness, and civic facilities.">রাস্তা, খাল, পরিচ্ছন্নতা ও নাগরিক সুবিধা নিয়ে চিহ্নিত বিষয়গুলো।</p></article>
+  <article class="card"><div class="num">03</div><h3 data-bn="তরুণদের অংশগ্রহণ" data-en="Youth Participation">তরুণদের অংশগ্রহণ</h3><p data-bn="খেলাধুলা, স্বেচ্ছাসেবা ও সামাজিক কাজে তরুণদের সম্পৃক্ততার উদ্যোগ।" data-en="Initiatives that involve young people in sports, volunteering, and community work.">খেলাধুলা, স্বেচ্ছাসেবা ও সামাজিক কাজে তরুণদের সম্পৃক্ততার উদ্যোগ।</p></article>
+ </div>
+</section>
+<section id="plan">
+ <div class="eyebrow" data-bn="এলাকা ও পরিকল্পনা" data-en="AREA & PLANS">এলাকা ও পরিকল্পনা</div>
+ <h2 data-bn="আলীনগরের ৯টি ওয়ার্ড" data-en="Nine Wards of Alinagar">আলীনগরের ৯টি ওয়ার্ড</h2>
+ <p class="lead" data-bn="প্রতিটি ওয়ার্ডের মানুষের মতামত, স্থানীয় সমস্যা ও অগ্রাধিকারভিত্তিক প্রয়োজন জানার জন্য এই অংশটি ব্যবহার করা হবে।" data-en="This section will be used to understand residents' views, local issues, and priority needs in each ward.">প্রতিটি ওয়ার্ডের মানুষের মতামত, স্থানীয় সমস্যা ও অগ্রাধিকারভিত্তিক প্রয়োজন জানার জন্য এই অংশটি ব্যবহার করা হবে।</p>
+ <div class="ward"><div>ওয়ার্ড ০১</div><div>ওয়ার্ড ০২</div><div>ওয়ার্ড ০৩</div><div>ওয়ার্ড ০৪</div><div>ওয়ার্ড ০৫</div><div>ওয়ার্ড ০৬</div><div>ওয়ার্ড ০৭</div><div>ওয়ার্ড ০৮</div><div>ওয়ার্ড ০৯</div></div>
+</section>
+<section>
+ <div class="eyebrow" data-bn="আপডেট" data-en="UPDATES">আপডেট</div>
+ <h2 data-bn="ছবি, সংবাদ ও ভিডিও" data-en="Photos, News & Videos">ছবি, সংবাদ ও ভিডিও</h2>
+ <p class="lead" data-bn="এখানে যাচাইকৃত কার্যক্রমের ছবি, ভিডিও ও সংবাদ প্রকাশ করা হবে।" data-en="Verified activity photos, videos, and updates will be published here.">এখানে যাচাইকৃত কার্যক্রমের ছবি, ভিডিও ও সংবাদ প্রকাশ করা হবে।</p>
+</section>
+<div class="contact" id="contact">
+ <div class="eyebrow" style="color:#e2c783" data-bn="যোগাযোগ" data-en="CONTACT">যোগাযোগ</div>
+ <h2 data-bn="আপনার মতামত ও পরামর্শ জানান" data-en="Share Your Views & Suggestions">আপনার মতামত ও পরামর্শ জানান</h2>
+ <p data-bn="যোগাযোগের ফোন নম্বর, ইমেইল ও সামাজিক যোগাযোগমাধ্যমের লিংক যুক্ত হলে এই অংশ থেকে সরাসরি যোগাযোগ করা যাবে।" data-en="Once a phone number, email, and social media links are added, visitors will be able to contact directly from this section.">যোগাযোগের ফোন নম্বর, ইমেইল ও সামাজিক যোগাযোগমাধ্যমের লিংক যুক্ত হলে এই অংশ থেকে সরাসরি যোগাযোগ করা যাবে।</p>
+ <span class="small" data-bn="ফোন / ইমেইল / ফেসবুক লিংক যুক্ত করা বাকি" data-en="Phone / email / Facebook links to be added">ফোন / ইমেইল / ফেসবুক লিংক যুক্ত করা বাকি</span>
+</div>
+</main>
+<footer>© <span id="year"></span> Nusan Ahammed Uzzal · <span data-bn="ব্যক্তিগত ওয়েবসাইট" data-en="Personal Website">ব্যক্তিগত ওয়েবসাইট</span></footer>
+<script>
+let english=false;
+document.getElementById('toggle').addEventListener('click',()=>{
+ english=!english;document.documentElement.lang=english?'en':'bn';
+ document.querySelectorAll('[data-bn]').forEach(el=>el.textContent=english?el.dataset.en:el.dataset.bn);
+ document.getElementById('toggle').textContent=english?'বাংলা':'EN';
+});
+document.getElementById('year').textContent=new Date().getFullYear();
+</script>
+</body></html>
